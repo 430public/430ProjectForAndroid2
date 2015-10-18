@@ -1,0 +1,196 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jd.nbapp"
+    android:installLocation="auto"
+    android:versionCode="1"
+    android:versionName="1.0.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+
+    <application
+        android:name="com.jd.nbapp.BaseApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Holo.Light" >
+        <meta-data
+            android:name="com.amap.api.v2.apikey"
+            android:value="30867241173da4a238c0557e1ad0e088" />
+
+        <activity
+            android:name=".ui.SplashActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:theme="@style/SplashTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.HomeActivity"
+            android:launchMode="singleTop"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ui.MainActivity"
+            android:launchMode="singleTop"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ui.IndexActivity"
+            android:launchMode="singleTop"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ui.CategoryActivity"
+            android:launchMode="singleTop"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ui.CategoryGoodsActivity"
+            android:launchMode="singleTop"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ui.DetailActivity"
+            android:launchMode="singleTop"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name=".ui.CartActivity"
+            android:launchMode="singleTop"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ui.PersonalActivity"
+            android:launchMode="singleTop"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ui.SearchActivity"
+            android:launchMode="singleTop"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".ui.LoginActivity"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name=".ui.RegisterActivity"
+            android:launchMode="singleTop"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name=".ui.RegisterBormalActivity"
+            android:launchMode="singleTop"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name=".ui.MoreActivity"
+            android:launchMode="singleTop"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name=".ui.IndexShakeActivity"
+            android:launchMode="singleTop"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name=".ui.IndexClothingActivity"
+            android:launchMode="singleTop"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name=".ui.IndexDigtalActivity"
+            android:launchMode="singleTop"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name=".ui.IndexDaily"
+            android:launchMode="singleTop"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name=".ui.IndexEbookActivity"
+            android:launchMode="singleTop"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name=".zxing.CaptureActivity"
+            android:launchMode="singleTop"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name=".zxing.CaptureResultActivity"
+            android:launchMode="singleTop"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity android:name="com.jd.nbapp.ui.RouteActivity" >
+        </activity>
+        <activity
+            android:name=".ui.OrderActivity"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity android:name=".ui.OrderModelActivity" >
+        </activity>
+        <activity
+            android:name=".ui.AdEditActivity"
+            android:launchMode="singleTask" >
+        </activity>
+        <activity android:name=".ui.AdListActivity" >
+        </activity>
+        <activity android:name=".ui.SMSActivity" >
+        </activity>
+        <activity
+            android:name="com.mob.tools.MobUIShell"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:windowSoftInputMode="stateHidden|adjustResize" >
+            <intent-filter>
+                <data android:scheme="tencent100371282" />
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.AddAddressActivity"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name=".ui.MapActivity"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden" >
+        </activity>
+    </application>
+
+</manifest>
