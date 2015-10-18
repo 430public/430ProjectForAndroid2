@@ -10,7 +10,7 @@ public class CartProduct {
      */
     private boolean isCheck;
     /**
-     * 商品数量
+     * 商品数量  
      */
     private int count;
     /**

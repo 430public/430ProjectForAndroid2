@@ -15,6 +15,7 @@ public class LinkMan {
 	 * @param phone 电话
 	 * @param address 地址
 	 */
+	   
 	public LinkMan(String name, String phone, String address) {
 		super();
 		this.name = name;

@@ -25,5 +25,5 @@ public class MyLove implements Serializable{
 		this.goodsId = goodsId;
 	}
 
-	
+	    
 }

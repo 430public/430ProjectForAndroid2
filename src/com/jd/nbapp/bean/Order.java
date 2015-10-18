@@ -28,7 +28,7 @@ public class Order {
 	private String confirm_time;	//确认收货时间
 	private List<OrderGoods> order_goods;  //订单商品
 	
-	
+	  
 	public String getBonus() {
 		return bonus;
 	}

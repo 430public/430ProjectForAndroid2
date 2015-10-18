@@ -19,6 +19,7 @@ public class GoodInfos implements Serializable{
 	/**
 	 * 商品库存
 	 */
+	  
 	private String gNumber;
 	private String click;
 	

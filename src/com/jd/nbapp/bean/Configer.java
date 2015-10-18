@@ -5,3 +5,4 @@ public class Configer {
 
 	public static final String SERVER_HOST = "m.e-cology.com.cn"; // 定义服务端地址
 }
+   

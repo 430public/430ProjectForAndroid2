@@ -8,7 +8,7 @@ public class RouteInfo {
 	public RouteInfo() {
 		// TODO Auto-generated constructor stub
 	}
-
+  
 	public RouteInfo(String info, String time) {
 		super();
 		this.info = info;

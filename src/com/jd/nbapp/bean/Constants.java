@@ -3,7 +3,7 @@ package com.jd.nbapp.bean;
 
 public class Constants {
 
-	
+	  
 	public static String MOBILE_SERVERS_URL="http://mserver.e-cology.cn/servers.do";
 	public static String serverAdd = "";
 	public static String serverVersion = "";

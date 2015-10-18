@@ -17,6 +17,7 @@ public class CartInfo implements Serializable{
 	/**
      * 是否被选中
      */
+	
     private boolean isCheck;
     
     
