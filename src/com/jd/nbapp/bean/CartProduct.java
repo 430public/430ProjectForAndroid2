@@ -3,7 +3,6 @@ package com.jd.nbapp.bean;
 /**
  * Created by Administrator on 2015/9/10.
  */
-
 public class CartProduct {
     /**
      * 是否被选中

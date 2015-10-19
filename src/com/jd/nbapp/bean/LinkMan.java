@@ -8,7 +8,6 @@ public class LinkMan {
 	public LinkMan() {
 		// TODO Auto-generated constructor stub
 	}
-
 	/**
 	 * 实例化联系人
 	 * @param name 联系人

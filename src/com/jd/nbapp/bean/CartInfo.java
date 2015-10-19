@@ -8,7 +8,6 @@ public class CartInfo implements Serializable{
 	
 	private int user_id;
 	private String username;
-	
 	private int goods_id;
 	private String goods_name;
 	private int goods_number;

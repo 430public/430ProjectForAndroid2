@@ -10,7 +10,6 @@ public class OrderGoods {
 	private double goods_price;
 	private String goods_attr;
 	
-	  
 	public int getOrder_id() {
 		return order_id;
 	}
